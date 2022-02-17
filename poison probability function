@@ -1,0 +1,5 @@
+#Calculate the Poisson mass probability function for x € (0,1...50) with mean 5 and plot "P(X=x)" Vs "Number of events" in type="h" with title "Poisson probability function".
+
+x<-dpois(0:50,lambda=5)
+print(x)
+plot(x,type="h",lwd=2,main="Poison Probability function",ylab="Yaxis",xlab="x axis")
