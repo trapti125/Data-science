@@ -1,0 +1,6 @@
+# ques: Create a sample of 50 numbers which are incremented by 1 and Plot Binomial Probability Distribution for n = 50 & p=0.3
+
+n<-seq(1,50,by=1)
+y<-dbinom(n,50,0.3)
+print(y)
+plot(n,y)
