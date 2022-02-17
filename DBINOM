@@ -1,0 +1,12 @@
+#QUES: A student is given a True-False Examination with 8 questions. If he corrects at least 7 questions, he passes the examination.
+# Using 'R' find the probability that he will pass given that he guesses all the questions
+
+
+x=seq(7,8,by=1)
+y=dbinom(x,8,0.5)
+x2=seq(8,8,by=1)
+z=dbinom(x2,8,0.5)
+print(y)
+print(z)
+print(y+z)
+plot(x,y)
